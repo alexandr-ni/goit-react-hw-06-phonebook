@@ -38,7 +38,6 @@ export const ContactForm = () => {
             dispatch(addContact(values));
             actions.resetForm();
           }
-          actions.resetForm();
           return;
         }}
       >
